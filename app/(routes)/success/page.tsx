@@ -2,9 +2,8 @@
 import { Button } from '@/components/ui/button';
 import Image from 'next/image'
 import { useRouter } from 'next/navigation'
-import React from 'react'
 
-const successPage = () => {
+const SuccessPage = () => {
     const router = useRouter();
   return (
     <div className="max-w-5xl p-4 mx-auto sm:py-16 sm:px-24">
@@ -24,4 +23,4 @@ const successPage = () => {
   )
 }
 
-export default successPage
+export default SuccessPage
